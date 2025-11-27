@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: auto;
+}
+
+h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+    margin: 100px 0px 0px 20px;
+}
+
+.purchase-warpper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 10px;
+    flex-wrap: nowrap;
+    overflow: auto;
+    text-align: center;
+    scrollbar-width: none;
+}
+
+.purchase-warpper div img {
+    width: 390px;
+    height: 200px;
+}
+
+.purchase-warpper div {
+    width: 400px;
+    height: 350px;
+    border: 1px solid black;
+}
+
+.warpper p {
+    font-family: Impact, serif;
+    margin-top: 10px;
+}
+
+.warpper button {
+    padding: 10px;
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    border: none;
+    transition: 0.1s;
+}
+
+button:hover {
+    background-color: white;
+    color: red;
+    border: 4px solid red;
+    font-weight: 900;
+}
